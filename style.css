@@ -1,0 +1,69 @@
+body{
+    background-color:rgb(223, 221, 221) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: row;
+    background-color: aliceblue;
+    width: 500px;
+    height: 200px;
+    margin: 60px;
+    border-radius: 15px;
+}
+.photo{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    border-radius: 30%;
+    width: 60px;
+    top: 40px;
+}
+.photo1{
+    flex-direction: row;
+    border-radius: 50%;
+    width: 30px;
+    padding: 5px;
+}
+.one{
+    position: relative;
+    right: 70px;
+}
+progress{
+    accent-color: orange;
+    width: 200px;
+}
+.two{
+    position: relative;
+    left: 70px;
+    
+}
+button{
+    position: relative;
+    left: 60px;
+    background-color: rgb(32, 32, 77);
+    color: white;
+    width: 120px;
+    height: 30px;
+    top: 20px;
+    border-radius: 10px;
+}
+
+.text{
+    position: relative;
+    top:10px;
+}
+.followers{
+    position: relative;
+    top: 30px;
+    left: 77px;
+}
+
